@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Guards\Helpers;
+namespace Guards\Guards\Helpers;
 
 class LicenseManager
 {

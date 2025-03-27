@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravel\Guards\Http\Middleware;
+namespace Guards\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use Laravel\Guards\Helpers\LicenseManager;
+use Guards\Guards\Helpers\LicenseManager;
 
 class VerifyLicenseKey
 {

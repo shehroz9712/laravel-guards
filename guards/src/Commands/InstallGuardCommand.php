@@ -1,7 +1,7 @@
 
 <?php
 
-namespace Laravel\Guards\Commands;
+namespace Guards\Guards\Commands;
 
 use Illuminate\Console\Command;
 

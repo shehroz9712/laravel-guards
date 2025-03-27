@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Laravel\Guards;
+namespace Guards\Guards;
 
 use Illuminate\Support\ServiceProvider;
-use Laravel\Guards\Commands\InstallGuardCommand;
+use Guards\Guards\Commands\InstallGuardCommand;
 
 class GuardsServiceProvider extends ServiceProvider
 {
