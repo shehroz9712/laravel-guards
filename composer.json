@@ -1,0 +1,23 @@
+{
+    "name": "laravel/guards",
+    "description": "License key management and lock system for Laravel.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Laravel\\Guards\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravel\\Guards\\GuardsServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@php vendor/laravel/guards/scripts/attach.php"
+        ]
+    },
+    "require": {}
+}
