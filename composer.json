@@ -10,7 +10,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "guards\\Guards\\GuardsServiceProvider"
+                "guards\\guards\\GuardsServiceProvider"
             ]
         }
     },

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Guards\Guards;
+namespace guards\guards;
 
 use Illuminate\Support\ServiceProvider;
 use Guards\Guards\Commands\InstallGuardCommand;
